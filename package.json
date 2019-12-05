@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/amberdata/amberdata-example-chainlink#readme",
   "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.2.4"
   }
 }
