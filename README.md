@@ -207,3 +207,10 @@ Summary
 
 ericbadiere@Erics-MacBook-Pro-3 gold-spot % 
 
+docker run --name postgres -e POSTGRES_PASSWORD=password -d postgre
+
+
+docker restart 4fd8881094db
+psql -h 127.0.0.1 -p 5432 -U postgres
+
+oracle contract address: 0x3fd1b50bba253311c54a8b423c7f06c2a30b2ad9
